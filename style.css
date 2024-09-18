@@ -5,4 +5,17 @@ body {
 img {
   max-width: 100%;
   max-height: 100vh;
+  z-index: -1;
+}
+
+.credit{
+  position: absolute;
+  color: white;
+} 
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
