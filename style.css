@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('fonts/opensans-bold-webfont.woff2') format('woff2'),
+       url('fonts/opensans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body {
   display: flex;
 }
@@ -43,4 +52,5 @@ img {
 
 .logo-text {
   font-size: 10vh;
+  font-family: 'open_sansbold', sans-serif;
 }
