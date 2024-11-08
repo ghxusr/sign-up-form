@@ -21,41 +21,49 @@
         <p class="credit">Photo by <a href="https://unsplash.com/@martinkatler?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Martin Katler</a> on <a href="https://unsplash.com/photos/a-large-body-of-water-with-a-boat-in-the-distance-4_HuGyQ-s_Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
         </p>
       </div>
-       <div>
-         <form action="/my-handling-form-page" method="post">
-            <section>
-              <p>This is not a real online service! You know you
-                need something like this in your life to help you
-                realize your deepest dreams. Sign up now to get started.</p>
-              <p>You know you want to.</p>
-            </section>
-            <section>
-              <h1>Let's do this!</h1>
-              <fieldset>
-                <div>
-                  <label for="first_name">Name</label>
-                  <input type="text" id="first_name" name="first_name">
-                  <label for="last_name">Last Name</label>
-                  <input type="text" id="last_name" name="last_name">
-                </div>
-                <div>
-                  <label for="user_email">Email Address</label>
-                  <input type="email" id="user_email" name="email" placeholder="you@example.com">
-                  <label for="phone_number">Phone Number</label>
-                  <input type="number" id="phone_number" name="phone_number">
-                </div>
-                <div>
-                  <label for="user_password">Password</label>
-                  <input type="password" id="user_password" name="password">
-                  <label for="confirm_password">Confirm Password</label>
-                  <input type="password" id="confirm_password" name="confirm_password">
-                </div>
-              </fieldset>
-            </section>
-            <section>
-              <button>Create account</button>
-              <p>Already have an account? <a href="">Log in</a></p>
-            </section>
+       <div class="form-container">
+         <div class="top-div">
+           <form action="/my-handling-form-page" method="post">
+              <section class="top">
+                <p>This is not a real online service! You know you
+                  need something like this in your life to help you
+                  realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+              </section>
+         </div>
+            <div class="info">
+              <section>
+                <fieldset>
+                  <h1>Let's do this!</h1>
+                  <div>
+                    <label for="first_name">Name</label>
+                    <input type="text" id="first_name" name="first_name">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" name="last_name">
+                  </div>
+                  <div>
+                    <label for="user_email">Email Address</label>
+                    <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="number" id="phone_number" name="phone_number">
+                  </div>
+                  <div>
+                    <label for="user_password">Password</label>
+                    <input type="password" id="user_password" name="password">
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" id="confirm_password" name="confirm_password">
+                  </div>
+                </fieldset>
+              </section>
+            </div>
+            <div class="account-div">
+              <div>
+                <section>
+                  <button>Create account</button>
+                  <p>Already have an account? <a href="">Log in</a></p>
+                </section>
+              </div>
+            </div>
          </form>
        </div>
     </body>
