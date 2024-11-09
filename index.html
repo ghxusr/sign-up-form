@@ -36,22 +36,34 @@
                 <fieldset>
                   <h1>Let's do this!</h1>
                   <div>
-                    <label for="first_name">Name</label>
-                    <input type="text" id="first_name" name="first_name">
-                    <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="last_name">
+                    <div class="group">
+                      <div><label for="first_name">First Name</label></div>
+                      <div><input type="text" id="first_name" name="first_name"></div>
+                    </div>
+                    <div class="group">
+                      <div><label for="last_name">Last Name</label></div>
+                      <div><input type="text" id="last_name" name="last_name"></div>
+                    </div>
                   </div>
                   <div>
-                    <label for="user_email">Email Address</label>
-                    <input type="email" id="user_email" name="email" placeholder="you@example.com">
-                    <label for="phone_number">Phone Number</label>
-                    <input type="number" id="phone_number" name="phone_number">
+                    <div class="group">
+                      <div><label for="user_email">Email Address</label></div>
+                      <div><input type="email" id="user_email" name="email" placeholder="you@example.com"></div>
+                    </div>
+                    <div class="group">
+                      <div><label for="phone_number">Phone Number</label></div>
+                      <div><input type="number" id="phone_number" name="phone_number"></div>
+                    </div>
                   </div>
                   <div>
-                    <label for="user_password">Password</label>
-                    <input type="password" id="user_password" name="password">
-                    <label for="confirm_password">Confirm Password</label>
-                    <input type="password" id="confirm_password" name="confirm_password">
+                    <div class="group">
+                      <div><label for="user_password">Password</label></div>
+                      <div><input type="password" id="user_password" name="password"></div>
+                    </div>
+                    <div class="group">
+                      <div><label for="confirm_password">Confirm Password</label></div>
+                      <div><input type="password" id="confirm_password" name="confirm_password"></div>
+                    </div>
                   </div>
                 </fieldset>
               </section>
@@ -59,8 +71,8 @@
             <div class="account-div">
               <div>
                 <section>
-                  <button>Create account</button>
-                  <p>Already have an account? <a href="">Log in</a></p>
+                  <button>Create Account</button>
+                  <p class="account-text">Already have an account? <a href="">Log in</a></p>
                 </section>
               </div>
             </div>

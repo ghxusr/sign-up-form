@@ -75,7 +75,7 @@ form {
 
 .top > p {
   font-size: 20px;
-  max-width: 550px;
+  max-width: 620px;
   font-weight: bold;
 }
 
@@ -93,8 +93,29 @@ fieldset {
 .account-div {
   display: flex;
   margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.group {
+  display: inline-block;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+h1 {
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+button {
+  padding: 10px 30px;
+  color: white;
+  background-color: navy;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+}
 
+.account-text > a {
+  color: navy;
+}
